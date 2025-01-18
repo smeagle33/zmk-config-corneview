@@ -2,6 +2,11 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+      include:
+  - board: nice_nano_v2
+    shield: corne_left nice_view_adapter nice_view
+  - board: nice_nano_v2
+    shield: corne_right nice_view_adapter nice_view
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
